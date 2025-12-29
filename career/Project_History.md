@@ -1,4 +1,4 @@
-# Project Experience
+# Project History
 
 ## 신한라이프: 영업지원시스템 성능개선 프로젝트
 
@@ -14,7 +14,6 @@
     * 요소를 렌더 트리에서 일시 제외하여 레이아웃 계산을 억제함으로써 브라우저 CRP(Critical Rendering Path) 부하를 최소화.
   * **Performance**: 스크립트 실행 시간을 15초에서 2초로 단축(86% 개선)하여 대량의 특약 선택 시 발생하는 화면 프리징 현상을 해결.
   * **Memory Management**: JavaScript의 V8 엔진 GC 부하를 줄이기 위해 루프 내 불필요한 객체 생성을 억제하고, 재사용 가능한 자료구조를 설계하여 런타임 메모리 풋프린트를 최적화.
-* **[상세 분석 보고서 읽기: 202601-shinhan-life-perf.md](../reports/202601-shinhan-life-perf.md)**
 
 ## 삼성증권: H.net 웹 전환 개발 프로젝트
 
