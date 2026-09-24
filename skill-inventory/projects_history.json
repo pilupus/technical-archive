@@ -1,0 +1,279 @@
+[
+    {
+        "project_history": {
+            "project": {
+                "name": "AIA생명 운영ITO",
+                "sub-desc": "청약"
+            },
+            "period": {
+                "startAt": "2026.09",
+                "endAt": "현재"
+            },
+            "client": "AIA생명",
+            "company": "애드데이타",
+            "development_field": {
+                "industry": "금융(보험)",
+                "application": "웹 풀스택"
+            },
+            "role": [
+                "분석/설계",
+                "개발",
+                "유지보수"
+            ],
+            "development_environment": {
+                "os": [
+                    "Windows"
+                ],
+                "language": [
+                    "Java",
+                    "TypeScript",
+                    "React"
+                ],
+                "dbms": [
+                    "Azure PostgreSQL",
+                    "DB2 for IBM i"
+                ],
+                "tool": [
+                    "VSCode",
+                    "Git",
+                    "Bitbucket",
+                    "Jenkins",
+                    "DBeaver",
+                    "Azure Monitor"
+                ],
+                "communication": [
+                    "HTTP"
+                ],
+                "etc": [
+                    "Teams",
+                    "Jira"
+                ]
+            }
+        }
+    },
+    {
+        "project_history": {
+            "project": {
+                "name": "AIA생명 차세대 영업 플랫폼 프로젝트NGSP(NextGen Sales Platform Project)",
+                "sub-desc": "청약"
+            },
+            "period": {
+                "startAt": "2026.02",
+                "endAt": "2026.09"
+            },
+            "client": "AIA생명",
+            "company": "LG CNS",
+            "development_field": {
+                "industry": "금융(보험)",
+                "application": "웹 백엔드"
+            },
+            "role": [
+                "개발"
+            ],
+            "development_environment": {
+                "os": [
+                    "Windows"
+                ],
+                "language": [
+                    "Java",
+                    "TypeScript",
+                    "React"
+                ],
+                "dbms": [
+                    "Azure PostgreSQL",
+                    "DB2 for IBM i"
+                ],
+                "tool": [
+                    "Eclipse/STS",
+                    "VSCode",
+                    "Git",
+                    "Bitbucket",
+                    "Jenkins",
+                    "DBeaver",
+                    "Azure Monitor"
+                ],
+                "communication": [
+                    "HTTP"
+                ],
+                "etc": [
+                    "Teams",
+                    "Jira"
+                ]
+            }
+        }
+    },
+    {
+        "project_history": {
+            "project": {
+                "name": "신한라이프 영업지원시스템시스템개선TF SSI(Sales Support Improve)",
+                "sub-desc": "가입설계"
+            },
+            "period": {
+                "startAt": "2025.11",
+                "endAt": "2026.01"
+            },
+            "client": "신한라이프",
+            "company": "신한DS",
+            "development_field": {
+                "industry": "금융(보험)",
+                "application": "웹 프론트엔드(최적화)"
+            },
+            "role": [
+                "분석/설계",
+                "개발"
+            ],
+            "development_environment": {
+                "os": [
+                    "Windows"
+                ],
+                "language": [
+                    "Java",
+                    "JavaScript"
+                ],
+                "dbms": [
+                    "Oracle"
+                ],
+                "tool": [
+                    "Eclipse",
+                    "Jenkins"
+                ],
+                "communication": [
+                    "HTTP"
+                ],
+                "etc": []
+            }
+        }
+    },
+    {
+        "project_history": {
+            "project": {
+                "name": "삼성증권 H.net 웹 전환 개발 프로젝트",
+                "sub-desc": "계정계-자산운용"
+            },
+            "period": {
+                "startAt": "2025.07",
+                "endAt": "2025.10"
+            },
+            "client": "삼성증권",
+            "company": "인스웨이브",
+            "development_field": {
+                "industry": "금융(증권)",
+                "application": "웹 프론트엔드(이식)"
+            },
+            "role": [
+                "개발"
+            ],
+            "development_environment": {
+                "os": [
+                    "Windows"
+                ],
+                "language": [
+                    "Java",
+                    "JavaScript"
+                ],
+                "dbms": [
+                    "Oracle"
+                ],
+                "tool": [
+                    "Eclipse/STS",
+                    "Git",
+                    "GitLab",
+                    "Jenkins"
+                ],
+                "communication": [
+                    "HTTP"
+                ],
+                "etc": []
+            }
+        }
+    },
+    {
+        "project_history": {
+            "project": {
+                "name": "신한EZ손해보험 영업시스템 고도화 프로젝트",
+                "sub-desc": "교차판매"
+            },
+            "period": {
+                "startAt": "2025.04",
+                "endAt": "2025.06"
+            },
+            "client": "신한EZ손해보험",
+            "company": "한화시스템",
+            "development_field": {
+                "industry": "금융(보험)",
+                "application": "웹 풀스택"
+            },
+            "role": [
+                "분석/설계",
+                "개발"
+            ],
+            "development_environment": {
+                "os": [
+                    "Windows"
+                ],
+                "language": [
+                    "Java",
+                    "JavaScript"
+                ],
+                "dbms": [
+                    "PostgreSQL"
+                ],
+                "tool": [
+                    "Eclipse/STS",
+                    "Git",
+                    "Gitea",
+                    "Jenkins",
+                    "DBeaver"
+                ],
+                "communication": [
+                    "HTTP"
+                ],
+                "etc": []
+            }
+        }
+    },
+    {
+        "project_history": {
+            "project": {
+                "name": "사회보장 통합플랫폼 유지관리 프로젝트",
+                "sub-desc": "바우처 신청"
+            },
+            "period": {
+                "startAt": "2023.12",
+                "endAt": "2025.03"
+            },
+            "client": "한국사회보장정보원",
+            "company": "메타빌드",
+            "development_field": {
+                "industry": "공공(복지)",
+                "application": "웹 풀스택"
+            },
+            "role": [
+                "분석/설계",
+                "개발",
+                "유지보수"
+            ],
+            "development_environment": {
+                "os": [
+                    "Windows"
+                ],
+                "language": [
+                    "Java",
+                    "JavaScript"
+                ],
+                "dbms": [
+                    "Oracle"
+                ],
+                "tool": [
+                    "Eclipse/eGov",
+                    "Jenkins",
+                    "DBeaver"
+                ],
+                "communication": [
+                    "HTTP"
+                ],
+                "etc": []
+            }
+        }
+    }
+]

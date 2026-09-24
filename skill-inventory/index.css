@@ -1,0 +1,118 @@
+/* 기본 리셋 및 폰트 설정 */
+html, body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* 제목 영역 */
+#title-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #333333;
+}
+
+#title-header h1 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: #111111;
+}
+
+/* 테이블 스타일 */
+#inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+#inventory-table th,
+#inventory-table td {
+    border: 1px solid #777777;
+    padding: 7px 5px;
+    text-align: center;
+    vertical-align: middle;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+
+/* 헤더 노란색 서식 */
+#inventory-table th {
+    background-color: #fff2cc;
+    font-weight: 600;
+    color: #111111;
+}
+
+/* 줄바꿈을 유연하게 처리하기 위한 블록 요소 */
+.block-item {
+    display: block;
+}
+
+.main-title {
+    display: block;
+    font-weight: bold;
+    color: #111111;
+}
+
+.sub-desc {
+    display: block;
+    color: #555555;
+    font-size: 10.5px;
+    margin-top: 3px;
+}
+
+/* 인쇄 / PDF 최적화 */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background-color: #ffffff;
+        padding: 0;
+    }
+
+    .container {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* 테이블 헤더가 다음 페이지에도 자동으로 반복 표시되도록 설정 */
+    #inventory-table thead {
+        display: table-header-group;
+    }
+
+    /* 각 행(tr) 및 셀(td, th) 중간에서 페이지가 잘리지 않도록 강제 방지 */
+    #inventory-table tr,
+    #inventory-table td,
+    #inventory-table th {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+}
